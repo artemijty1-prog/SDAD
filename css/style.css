@@ -1,0 +1,294 @@
+*{
+margin:0 ;
+padding: 0;
+
+}
+html,body{
+height: 100%;  
+
+}
+.main_img-float{
+    
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+}
+#wrapper{
+min-height: 100%;
+height: auto !important;
+height: 100%;
+width: 100%;
+}
+header{
+    height: 120px;
+    width: 1040px;
+    margin:0 auto;
+}
+main{
+    padding-bottom: 100px;
+    width: 1040px;
+    margin:0 auto;
+}
+footer{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    width: 1040px;
+    margin:0 auto;
+}
+
+body{
+    background-color:  #002F55;
+    color: white;
+    font-family:'Google Sans', 'Verdana','Arial','Helvectica', sans-serif;
+    
+}
+
+.serif{
+    font-family :'Times New Roman', Times, serif;
+}
+.sansserif{
+    font-family: Verdana, Arial, Helvetica, sans-serif, ;
+}
+
+#panorama{
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover;
+}
+.services_img{
+    width: 240px;
+}
+.services_item {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+   float: left;
+}
+.services{
+padding: 35px;
+/*border: 5px black solid;*/
+
+
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1-invisible{
+    visibility: hidden;
+}
+.perpl{
+    color: #6A5ACD;
+}
+#p {
+    text-align: center;
+        padding-bottom: 100px;
+    width: 1040px;
+    margin:0 auto;
+}
+.m{
+    width: 644px; 
+    margin:0 auto;
+}
+#logo{
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left; 
+    margin-right: 300px;
+}
+#mainnav ul{
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 38px;
+}
+#mainnav li{
+display: inline;
+}
+#mainnav a{
+    
+    margin: -20px;
+    color: #ffffff;
+padding: 5px;
+margin-top: 50px;
+margin-right: 20px;
+font-size: 20px;
+    text-decoration: none;
+}
+#mainnav a:hover{
+    text-decoration: underline;
+}
+#mainnav li.j a{
+    font-weight: bold;
+}
+.pink{
+    color: #6A5ACD;
+    text-decoration: none;
+}
+.pink:hover{
+    text-decoration: underline;
+}
+.new::after{
+    content: "new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: #000000;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+   
+.footer_icons {
+    text-align: right;
+    display: inline-block;
+    width: 335px;
+}
+.footer_img {
+    width: 50px;
+    margin-left: 10px;
+}
+.footer_block {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 335px;
+    text-align: center;
+}
+h1{
+    text-transform:uppercase ;
+    font-weight: bold;
+    font-size: 20px;
+       font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+h2{
+    text-transform:uppercase ;
+    font-weight: bold;
+    font-size: 20px;
+}
+.underline {
+  text-decoration: underline;
+}
+
+.t{
+    padding-top: 10px;
+}
+
+mark{
+    color: #000000;
+    background-color: #3a24ce;
+}
+.fon{
+    border-radius: 20px;
+    box-shadow:  0 4px 10px rgba(226, 226, 224, 0.781);
+}
+table{
+    border: 5px solid #002F55;
+    border-collapse: collapse;
+}
+ td,th{
+    border: 2px solid #ffffff; 
+    border-left: none;
+  border-right: none;
+   padding: 10px;
+}
+.price th:first-child{
+    width: 10%;
+}
+.price th:nth-child(2),.price th:first-child{
+    width: 25%;
+}
+.price td{
+    text-align: center;
+}
+.price td.vb{
+    text-align: left;
+}
+.price tbody tr:nth-child(even){
+    background-color: #6A5ACD;
+}
+   thead th{
+   border: 5px solid #6A5ACD;
+   border-left: none;
+  border-right: none;
+
+}
+#contact-form {
+    max-width: 500px;
+    margin: 40px 0;
+}
+
+.form_item {
+    margin-bottom: 15px;
+    
+}
+
+#contact-form label {
+    font-style: italic;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="date"],
+#contact-form select,
+#contact-form textarea {
+    height: 35px;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid white;
+    background-color: #eddfff;
+    color: #6A5ACD;
+    font-family: inherit;
+    border-radius: 4px;
+   
+
+}
+
+#contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #6A5ACD;
+    color: #000000;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #eddfff;
+}
+
+.po{
+  
+   flex: content;
+  
+}
+
+.pt{
+  
+   float: right;
+  margin-left: 20px;
+}
